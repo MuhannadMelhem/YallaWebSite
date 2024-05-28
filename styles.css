@@ -1,0 +1,197 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar .logo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li {
+    display: inline;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+    background-color: #e00;
+}
+
+.hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-bottom: 5px solid #e00;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.highlight {
+    background-color: #e00;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.highlight .highlight-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.highlight .button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.highlight .button:hover {
+    background-color: #444;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-bottom: 5px solid #e00;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 20px 0;
+}
+
+.card .button {
+    background-color: #e00;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card .button:hover {
+    background-color: #c00;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px;
+}
+
+.login-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #222;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-container form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.form-container form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e00;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container form button:hover {
+    background-color: #c00;
+}
+
+.form-container p {
+    text-align: center;
+    margin-top: 20px;
+}
