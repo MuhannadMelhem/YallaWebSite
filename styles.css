@@ -136,6 +136,24 @@ header {
 .card .button:hover {
     background-color: #c00;
 }
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.instagram-icon {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
 
 footer {
     background-color: #111;
