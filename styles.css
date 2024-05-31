@@ -253,6 +253,15 @@ footer {
     transition: background-color 0.3s;
     margin-top: 10px;
 }
+/* Add this to your existing styles.css file */
+
+.instagram-icon {
+    height: 20px; /* Adjust the height as needed */
+    width: 20px;  /* Adjust the width as needed */
+    display: inline-block;
+    vertical-align: middle; /* Ensures the icon is vertically aligned with the text */
+}
+
 
 .button:hover {
     background-color: #c00;
