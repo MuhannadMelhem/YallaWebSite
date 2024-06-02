@@ -255,11 +255,29 @@ footer {
 }
 /* Add this to your existing styles.css file */
 
+.social-media {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.2em; /* Adjust the font size if needed */
+}
+
 .instagram-icon {
-    height: 20px; /* Adjust the height as needed */
-    width: 20px;  /* Adjust the width as needed */
+    height: 40px; /* Adjust the height for bigger icon */
+    width: 40px;  /* Adjust the width for bigger icon */
     display: inline-block;
-    vertical-align: middle; /* Ensures the icon is vertically aligned with the text */
+}
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px;
 }
 
 
